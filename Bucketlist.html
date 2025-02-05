@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bucket List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+    
+    <style>
+        a {
+    font-size: 16px;
+    padding: 10px;
+    display: inline-block;
+}
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #1e1e2f;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            color: #ffffff;
+        }
+        header {
+            background: #ff6b6b;
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .bucket-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px auto;
+            width: 80%;
+        }
+        .bucket-list li {
+            background: #2a2a40;
+            margin: 15px auto;
+            padding: 20px;
+            width: 70%;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            transition: transform 0.3s, background 0.3s;
+            font-size: 18px;
+        }
+        .bucket-list li:hover {
+            transform: scale(1.07);
+            background: #ff6b6b;
+            color: white;
+        }
+        .bucket-list li i {
+            margin-right: 15px;
+            font-size: 22px;
+        }
+        .completed {
+            color: #00ff7f;
+            font-weight: bold;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 15px;
+            background: #ff6b6b;
+            color: white;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Bucket List</h1>
+    </header>
+    <main>
+        <ul class="bucket-list">
+            <li class="completed"> <i class="fas fa-check-circle"></i> Travel to Italy</li>
+            <li> <i class="fas fa-circle"></i> Learn to play the guitar</li>
+            <li> <i class="fas fa-circle"></i> Go scuba diving</li>
+            <li class="completed"> <i class="fas fa-check-circle"></i> Complete a half-marathon</li>
+            <li> <i class="fas fa-circle"></i> Watch the Northern Lights</li>
+        </ul>
+    </main>
+    <footer>
+        <p>Made with ❤️ by Venkatesh</p>
+    </footer>
+</body>
+</html>
